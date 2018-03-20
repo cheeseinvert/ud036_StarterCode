@@ -37,4 +37,8 @@ avengers = media.Movie("Avengers Infinity War",
                        "@._V1_UX182_CR0,0,182,268_AL_.jpg",
                        "https://www.youtube.com/watch?v=iK1R4v0LzAU")
 
-fresh_tomatoes.open_movies_page([toy_story, black_panther, tag, jumanji, sicario, avengers])
+# create movie list here:
+my_movies = [toy_story, black_panther, tag, jumanji, sicario, avengers]
+
+# open the movies page in a web browser
+fresh_tomatoes.open_movies_page(my_movies)
